@@ -18,9 +18,11 @@ Unlike standard cloud-dependent voice assistants, **Siri Mini** processes NLP an
 * **Text-to-Speech:** `pyttsx3`
 * **Frontend:** Streamlit with Custom CSS injection
 
-## 🚀 Installation & Setup
+📂 Project Structure
+app.py: The main Streamlit frontend and UI configuration.
 
-**1. Clone the repository:**
-```bash
-git clone [https://github.com/YOUR-USERNAME/siri-mini.git](https://github.com/YOUR-USERNAME/siri-mini.git)
-cd siri-mini
+engine.py: Handles microphone hardware hooks, Whisper transcription, and Text-to-Speech.
+
+actions.py: The hybrid execution engine (ML intents + hardware overrides).
+
+model.py: Training script for the Scikit-Learn NLP intent classifier.
