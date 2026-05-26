@@ -1,7 +1,1 @@
-app.py: The main Streamlit frontend and UI configuration.
 
-engine.py: Handles microphone hardware hooks, Whisper transcription, and Text-to-Speech.
-
-actions.py: The hybrid execution engine (ML intents + hardware overrides).
-
-model.py: Training script for the Scikit-Learn NLP intent classifier.
