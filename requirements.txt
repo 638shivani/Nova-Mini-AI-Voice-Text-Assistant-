@@ -1,0 +1,9 @@
+streamlit
+joblib
+wikipedia
+pyttsx3
+openai-whisper
+sounddevice
+scipy
+scikit-learn
+numpy
